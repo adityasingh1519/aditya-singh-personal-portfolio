@@ -1,0 +1,43 @@
+
+.navbar .underline {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    z-index: 999;
+  
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      height: 5px;
+      background-color: var(--gradient-2);
+      transition: width 0.3s ease;
+    }
+  
+    &:hover::before {
+      width: 100%;
+      border-radius: 30;
+    }
+  }
+
+
+  .py-5 {
+    padding: 50px 0px;
+  }
+  .hello-lottie {
+    width: 100%;
+  }
+  .btn:focus , .btn-primary:focus {
+    box-shadow: none;
+  }
+
+  .employer-logo {
+    width: 200px;
+  }
+
+  dl, ol, ul {
+    margin-top: 0;
+   margin-bottom: 0px; 
+}

@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Aditya - Perosonal Blog Website</title>
+  <meta name="title" content="Wren - Perosonal Blog Website">
+  <meta name="description" content="This is a blog html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--  
+    - swiper
+  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/pattern-2.svg">
+  <link rel="preload" as="image" href="./assets/images/pattern-3.svg">
+
+</head>
+
+<body class="body-overlay" id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="20%" alt="Wren logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="20%" alt="Wren logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link  underline" data-nav-toggler>Home</a>
+          </li>
+
+          <li>
+            <a href="#Behind-the-pixels" class="navbar-link  underline" data-nav-toggler>About Me</a>
+          </li>
+
+          <li>
+            <a href="#work-history" class="navbar-link  underline" data-nav-toggler>Work History</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link  underline" data-nav-toggler>Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#contact-me" class="navbar-link  underline" data-nav-toggler>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="#" class="btn btn-primary border-0 outline-0">Download Resume</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <section class="hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-banner py-5">
+
+            <dotlottie-player class="hello-lottie"
+              src="https://lottie.host/78826e19-2595-4a01-be2a-29d9ab688ac7/dZnGLBJwnw.json" background="transparent"
+              speed="1" loop autoplay></dotlottie-player>
+          </div>
+
+          <div class="hero-content">
+
+            <!-- <p class="hero-subtitle">Hello Everyone!</p> -->
+
+            <h1 class="headline headline-1 ">
+              I’m <span class="span">Aditya Singh</span>
+            </h1>
+
+            <p class="hero-text"> Thank you for stopping by! Feel free to look around and connect with me if you
+              resonate with my work or have a project in mind that you'd like me to bring to life. </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="Behind-the-pixels" aria-label="work-history" id="Behind-the-pixels">
+        <div class="container">
+          <h2 class="headline headline-2 section-title">
+            <span class="span">Behind the Pixels</span>
+          </h2>
+          <p class="section-text">
+            incase you want to know about me
+          </p>
+          <div class="row ">
+            <div class="col col-xl-8 my-auto">
+              <div class="content-section">
+                <p class="text-white"> "Hello there! I'm not just a developer; I'm a dream weaver. There's an
+                  unparalleled joy in turning thoughts into tangible, digital realities. The satisfaction I feel when I
+                  look back at what I've created is my driving force. </p>
+
+                <p class="text-white"> Being at the intersection of development and design, I find the sweet spot where
+                  functionality meets aesthetics. My journey involves not just coding but crafting experiences. I thrive
+                  on the feeling of creating something that adds genuine value to people's lives. </p>
+
+                <p class="text-white"> With a strong foundation in development, I bring a little extra to the table – a
+                  dash of design. This unique blend not only sets me apart from the crowd but also serves as a compass,
+                  guiding me to understand not just how to develop, but what to develop. </p>
+              </div>
+            </div>
+
+            <div class="col col-4 d-none d-xl-block mx-auto">
+              <div class="iamge-section">
+                <img class="aditya w-75 rounded-3 mx-auto" src="./assets/customImages/aditya.jpg" alt="" srcset="">
+              </div>
+            </div>
+
+
+          </div>
+
+
+
+        </div>
+      </section>
+
+      <section class="section work-history" aria-label="work-history" id="work-history">
+        <div class="container">
+          <h2 class="headline headline-2 section-title">
+            <span class="span">Work History</span>
+          </h2>
+          <p class="section-text">
+            my time with remarkable organizations
+          </p>
+          <div class="timeline">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide" data-year="Oct-2023">
+                  <div class="swiper-slide-content">
+                    <img class="employer-logo py-md-4"
+                      src="https://www.techment.com/wp-content/themes/techment_2.0/assets/images/techment_logo.svg"
+                      alt="" srcset="">
+                    <span class="timeline-year">Oct-2023</span>
+                    <h4 class="timeline-title py-md-4">Web developer intern</h4>
+
+                    <div class="timeline-text">
+                      <div class="skill d-flex"> <span class="card-badge">React js</span> <span
+                          class="card-badge mx-2">Javascript</span> <span class="card-badge mx-2">Api</span> <span
+                          class="card-badge">Bootstrap</span> <span class="card-badge mx-2">Worpress</span> </div>
+                      <p class="description py-md-4">Mainly worked on front-end technologies including Bootstrap, HTML,
+                        CSS, and JavaScript. <br>
+                        Practiced industry-best coding standards to produce high-quality, maintainable code,
+                        contributing
+                        to a seamless and efficient development process. <br>
+                        ntegrated APIs in React to build a chatbot-centric website from Figma designs, emphasizing
+                        seamless user interactions and collaboration with design and development teams.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide" data-year="Jul-2023">
+                  <div class="swiper-slide-content">
+                    <img class="employer-logo py-md-4"
+                      src="https://commerciawc.com/public//web/landing-page/img/Logo-White.png" alt="" srcset="">
+                    <span class="timeline-year">Jul-2023</span>
+                    <h4 class="timeline-title py-md-4">Web developer intern</h4>
+
+                    <div class="timeline-text">
+                      <div class="skill d-flex"> <span class="card-badge">Bootstrap</span> <span
+                          class="card-badge mx-2">HTML</span> <span class="card-badge">CSS</span> <span
+                          class="card-badge mx-2">Laravel</span> </div>
+                      <p class="description py-md-4">Mainly worked on front-end technologies including Bootstrap, HTML,
+                        CSS, and JavaScript. <br>
+                        Developed web applications using Laravel, implementing MVC architecture, and integrated APIs.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide" data-year="Jan-2022">
+                  <div class="swiper-slide-content">
+                    <img class="employer-logo py-md-4"
+                      src="https://www.etherealcorporate.com/branding-and-design-importance/assets/images/logo-white.png"
+                      alt="" srcset="">
+                    <span class="timeline-year">Jan-2022</span>
+                    <h4 class="timeline-title py-md-4">Graphic designer intern</h4>
+
+                    <div class="timeline-text">
+                      <div class="skill d-flex"> <span class="card-badge">designing</span> <span
+                          class="card-badge mx-2">photoshop</span> <span class="card-badge">SMM</span> </div>
+                      <p class="description py-md-4">Created engaging and impactful content for various social media
+                        channels.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section feature portfolio" aria-label="portfolio" id="portfolio">
+        <div class="container">
+
+          <h2 class="headline headline-2 section-title">
+            <span class="span">My Portfolio</span>
+          </h2>
+
+          <p class="section-text">
+            my recent works
+          </p>
+
+          <ul class="feature-list">
+
+            <li>
+              <div class="card feature-card border-0">
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <video src="./assets/videos/parallax.mp4" class="img-cover" autoplay loop controls></video>
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      4d Parallax effect in website using html css and js
+                    </a>
+                  </h3>
+                  <div class="card-wrapper">
+                    <p class="card-subtitle">Dec 2023</p>
+                    <a href="https://github.com/adityasingh1519/parallax-4d" class="card-btn">View on Git</a>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card border-0">
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <video id="snakeGameVideo" src="./assets/videos/Snake game.mp4" class="img-cover" autoplay loop
+                    controls muted></video>
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Snake game with music effect using html css and js
+                    </a>
+                  </h3>
+                  <div class="card-wrapper">
+                    <p class="card-subtitle">Dec 2023</p>
+                    <a href="https://github.com/adityasingh1519/snake-game" class="card-btn">View on Git</a>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <img src="./assets/images/shadow-3.svg" width="500" height="1500" loading="lazy" alt="" class="feature-bg">
+
+      </section>
+
+    </article>
+
+    <section class="topics pb-5" id="topics" aria-labelledby="topic-label">
+      <div class="container">
+
+        <div class="card topic-card">
+
+          <div class="card-content">
+
+            <h2 class="headline headline-2 section-title card-title" id="topic-label">
+              What I like
+            </h2>
+
+            <p class="card-text">
+             skip this part if you are a boring person
+            </p>
+
+            <div class="btn-group">
+              <button class="btn-icon" aria-label="previous" data-slider-prev>
+                <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+              </button>
+
+              <button class="btn-icon" aria-label="next" data-slider-next>
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </button>
+            </div>
+
+          </div>
+
+          <div class="slider" data-slider>
+            <ul class="slider-list" data-slider-container>
+
+              <li class="slider-item">
+                <a href="#" class="slider-card">
+
+                  <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                    <img src="https://bl-i.thgim.com/public/incoming/jc9qot/article67647576.ece/alternates/FREE_1200/BL1812_Spark%20_lead.jpeg" width="507" height="618" loading="lazy" alt="Sport"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="slider-content">
+                    <span class="slider-title">eSport</span>
+
+
+                  </div>
+
+                </a>
+              </li>
+
+              <li class="slider-item">
+                <a href="#" class="slider-card">
+
+                  <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                    <img src="https://static.toiimg.com/photo/photo/91157937/91157937.jpg?imgsize=145584" width="507" height="618" loading="lazy" alt="Travel"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="slider-content">
+                    <span class="slider-title">Travel</span>
+
+
+                  </div>
+
+                </a>
+              </li>
+
+              <li class="slider-item">
+                <a href="#" class="slider-card">
+
+                  <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                    <img src="https://img.freepik.com/fotos-premium/eine-bunte-gluehbirne-mit-flammenmuster-darauf_186938-2483.jpg" width="507" height="618" loading="lazy" alt="Design"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="slider-content">
+                    <span class="slider-title">Designing</span>
+
+                  </div>
+
+                </a>
+              </li>
+
+              <li class="slider-item">
+                <a href="#" class="slider-card">
+
+                  <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                    <img src="https://store.ubisoft.com/on/demandware.static/-/Library-Sites-shared-library-web/default/dwc22165c0/BLUE/Avatar_Immersive_03_MOB.jpg" width="507" height="618" loading="lazy" alt="Movie"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="slider-content">
+                    <span class="slider-title">Movie</span>
+                  </div>
+
+                </a>
+              </li>
+
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section contact-me" aria-label="contact-me" id="contact-me">
+      <div class="container">
+        <h2 class="headline headline-2 section-title text-center">
+          <span class="span">Contact me</span>
+        </h2>
+        <p class="section-text text-center">
+          say hii to me
+        </p>
+
+        <div class="content-section ">
+          <dotlottie-player class="mx-auto"
+            src="https://lottie.host/8797332e-945c-414e-9fab-109857a76892/IxSbuz3bxb.json" background="transparent"
+            speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+
+          <a href="mailto:adityasingh456123@gmail.com" class="btn btn-primary border-0 outline-0 mx-auto">write me
+            here</a>
+        </div>
+
+      </div>
+    </section>
+
+
+  </main>
+
+
+
+  <footer>
+    <div class="container">
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; Developed by <a href="#" class="copyright-link">Aditya Singh.</a>
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://github.com/adityasingh1519" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+
+              <span class="span">Github</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/aditya-singh-cs/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+
+              <span class="span">LinkedIn</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+
+              <span class="span">Instagram</span>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+
+  <!-- 
+    - lottie
+  -->
+
+  <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script defer src="./assets/js/custom.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- 
+    - swiper
+  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
+  <!-- 
+    - bs js link
+  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
