@@ -1,43 +1,115 @@
-
 .navbar .underline {
-    position: relative;
-    text-align: center;
-    overflow: hidden;
-    z-index: 999;
-  
-    &::before {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 0%;
-      height: 5px;
-      background-color: var(--gradient-2);
-      transition: width 0.3s ease;
-    }
-  
-    &:hover::before {
-      width: 100%;
-      border-radius: 30;
-    }
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  z-index: 999;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 5px;
+    background-color: var(--gradient-2);
+    transition: width 0.3s ease;
   }
 
-
-  .py-5 {
-    padding: 50px 0px;
-  }
-  .hello-lottie {
+  &:hover::before {
     width: 100%;
+    border-radius: 30;
   }
-  .btn:focus , .btn-primary:focus {
-    box-shadow: none;
-  }
+}
 
-  .employer-logo {
-    width: 200px;
-  }
 
-  dl, ol, ul {
-    margin-top: 0;
-   margin-bottom: 0px; 
+.py-5 {
+  padding: 50px 0px;
+}
+
+.hello-lottie {
+  width: 100%;
+}
+
+.btn:focus,
+.btn-primary:focus {
+  box-shadow: none;
+}
+
+.employer-logo {
+  width: 200px;
+}
+
+dl,
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+
+
+.work-history ul,
+.work-history li {
+  list-style: none;
+  padding: 0;
+}
+
+
+
+.work-history .wrapper {
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+
+.work-history .sessions {
+  margin-top: 2rem;
+  border-radius: 12px;
+  position: relative;
+}
+
+.work-history li {
+  padding-bottom: 1.5rem;
+  border-left: 1px solid #abaaed;
+  position: relative;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+
+.work-history li:last-child {
+  border: 0px;
+  padding-bottom: 0;
+}
+
+.work-history li:before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: white;
+  border: 1px solid #4e5ed3;
+  box-shadow: 3px 3px 0px #bab5f8;
+  box-shadow: 3px 3px 0px #bab5f8;
+  border-radius: 50%;
+  position: absolute;
+  left: -10px;
+  top: 0px;
+}
+
+.work-history .time {
+  color: #2a2839;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 601px) {
+  .work-history .time {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .work-history .time {
+    margin-bottom: 0.3rem;
+    font-size: 0.85rem;
+  }
 }
