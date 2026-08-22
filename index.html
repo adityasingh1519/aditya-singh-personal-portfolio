@@ -89,6 +89,10 @@
           </li>
 
           <li>
+            <a href="#skills" class="navbar-link  underline" data-nav-toggler>Skills</a>
+          </li>
+
+          <li>
             <a href="#portfolio" class="navbar-link  underline" data-nav-toggler>Portfolio</a>
           </li>
 
@@ -98,7 +102,7 @@
         </ul>
       </nav>
 
-      <a target="_blank" href="https://drive.google.com/file/d/1Qb7kjNl-00ydmbiDhKZUft9qo7prhbbS/view?usp=sharing"
+      <a target="_blank" href="https://drive.google.com/file/d/1whtVhGv47Dw5OUDWs2Ll3oxBY3C59vrD/view?usp=sharing"
         class="btn btn-primary border-0 outline-0">Download Resume</a>
 
       <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
@@ -136,7 +140,7 @@
 
 
 
-      <section class="section work-history">
+      <section class="section work-history" id="work-history">
         <div class="container">
           <h2 class="headline headline-2 section-title">
             <span class="span">Work History</span>
@@ -147,62 +151,107 @@
 
           <div class="wrapper">
             <ul class="sessions">
+              <!-- IALTRUIST LLC -->
+              <li>
+                <h3 class="employer-logo-text pb-2 pb-md-4 text-white fw-bold" style="font-size: 2rem; letter-spacing: 1px;">IALTRUIST LLC.</h3>
+                <ul>
+                  <li>
+                    <span class="timeline-year pb-2 pb-md-4">Mar 2026 – Present</span>
+                    <h4 class="timeline-title pb-md-4 text-white fw-semibold">Senior Software Engineer</h4>
+                    <p class="timeline-subtitle text-muted pb-2" style="font-size: 0.95rem; font-style: italic;">AI-powered BPM SaaS & Agentic Automation Architecture</p>
+                    <div class="timeline-text">
+                      <div class="skill d-flex flex-wrap gap-2 mb-3">
+                        <span class="card-badge">LLM Workflows</span>
+                        <span class="card-badge">Agentic Systems</span>
+                        <span class="card-badge">RAG</span>
+                        <span class="card-badge">MongoDB</span>
+                        <span class="card-badge">Azure SQL</span>
+                        <span class="card-badge">DataHub</span>
+                        <span class="card-badge">Devin AI</span>
+                        <span class="card-badge">OpenAPI/Swagger</span>
+                      </div>
+                      <p class="description text-white py-md-2" style="line-height: 1.6;">
+                        • Built an LLM-driven pipeline connecting MongoDB and Azure SQL to DataHub, auto-generating a semantic ontology layer with human-in-the-loop approval to power downstream RAG agent retrieval.<br>
+                        • Engineered an end-to-end, self-healing test automation pipeline: LLMs generate functional API test suites from OpenAPI/Swagger specs, execute runtime validations, and on failure autonomously hand off to Devin AI, which diagnoses logs, synthesizes source code fixes, and opens pull requests for peer review.<br>
+                        • Developed an LLM-backed schema generation engine to dynamically compile structured JSON and form schemas, enforcing prompt sanitization, schema constraints, and validation logic.<br>
+                        • Worked on the core platform as a Full-Stack Engineer to implement multiple features across frontend and backend systems.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Techment Technology -->
               <li>
                 <img class="employer-logo pb-2 pb-md-4"
                   src="https://www.techment.com/wp-content/themes/techment_2.0/assets/images/techment_logo.svg" alt=""
                   srcset="">
                 <ul>
                   <li>
-                    <span class="timeline-year pb-2 pb-md-4">Feb-2024 - Present</span>
-                    <h4 class="timeline-title pb-md-4 text-white fw-semibold">Junior Software Developer </h4>
+                    <span class="timeline-year pb-2 pb-md-4">Feb 2024 – Feb 2026</span>
+                    <h4 class="timeline-title pb-md-4 text-white fw-semibold">Software Engineer</h4>
+                    <p class="timeline-subtitle text-muted pb-2" style="font-size: 0.95rem; font-style: italic;">Multi-tenant Web Application & Dashboard Web Application</p>
                     <div class="timeline-text">
-                      <div class="skill "> <span class="  card-badge  my-2     d-inline   ">React js</span> <span
-                          class="  card-badge  my-2     d-inline   mx-2">Mysql</span> <span class="  card-badge  my-2     d-inline   mx-2">Javascript</span> <span
-                          class="  card-badge  my-2     d-inline   mx-2">Api</span> <span class="  card-badge  my-2     d-inline  ">Tailwind</span> </div>
-                      <p class="description text-white py-md-4">Utilized React JS to develop a chatbot-centric website,
-                        transforming Figma designs into an interactive and user-friendly interface.<br>
-                        Focused on creating seamless user interactions to enhance the overall user experience. <br>
-                        Collaborated closely with design and development teams to align the website with the project
-                        vision and requirements. <br>Worked with stakeholders to gather and track project requirements,
-                        ensuring alignment with business objectives. <br>Integrated Zoho and Google Analytics for
-                        improved customer engagement , track performance communication and enabling data-driven
-                        decision-making for platform improvements.
+                      <div class="skill d-flex flex-wrap gap-2 mb-3">
+                        <span class="card-badge">FastAPI</span>
+                        <span class="card-badge">React</span>
+                        <span class="card-badge">Redux</span>
+                        <span class="card-badge">Chart.js</span>
+                        <span class="card-badge">D3.js</span>
+                        <span class="card-badge">MapLibre</span>
+                        <span class="card-badge">Azure Entra ID</span>
+                        <span class="card-badge">Azure Blob Storage</span>
+                        <span class="card-badge">MUI</span>
+                        <span class="card-badge">TypeScript</span>
+                        <span class="card-badge">WCAG</span>
+                      </div>
+                      <p class="description text-white py-md-2" style="line-height: 1.6;">
+                        • Delivered a large-scale multi-tenant platform 50% ahead of schedule; built secure FastAPI RESTful APIs with RBAC, data isolation, and Azure Entra ID SSO.<br>
+                        • Designed dynamic configuration APIs and integrated MapLibre for geospatial visualization; built dual portals (Citizen & Staff) for end-to-end case workflows.<br>
+                        • Developed scalable React + Redux frontends with WCAG 2.1 AA compliance and Azure Blob Storage for tenant-aware file management.<br>
+                        • Built interactive insights dashboard with Chart.js and D3.js tree visualizations and a conversational chatbot for natural language data querying.<br>
+                        • Implemented SSO via Azure Entra ID with React/Redux + FastAPI; enhanced UI with MUI and TypeScript for WCAG AA+ compliance.
+                      </p>
                     </div>
                   </li>
                   <li>
-                    <span class="timeline-year pb-2 pb-md-4">Oct-2023 - Jan-2024</span>
-                    <h4 class="timeline-title pb-2 pb-md-4 text-white fw-semibold">Software Engineer Trainee </h4>
+                    <span class="timeline-year pb-2 pb-md-4">Oct 2023 – Jan 2024</span>
+                    <h4 class="timeline-title pb-2 pb-md-4 text-white fw-semibold">Intern</h4>
                     <div class="timeline-text">
-                      <div class="skill "> <span class="  card-badge  my-2     d-inline   ">Html</span> <span
-                          class="mx-2   card-badge  my-2     d-inline  ">javascript</span> <span class="  card-badge  my-2     d-inline   mx-2">css</span><span
-                          class="  card-badge  my-2     d-inline  ">Bootstrap</span> <span class="  card-badge  my-2     d-inline   mx-2">Wordpress</span> </div>
-                      <p class="description text-white py-md-4">Worked on front-end technologies including Bootstrap,
-                        HTML, CSS, and JavaScript. <br>
-                        Practiced industry-best coding standards to produce high-quality, maintainable code,
-                        contributing to a seamless and
-                        efficient development process. <br> Also worked on custom WordPress theme development.</p>
+                      <div class="skill d-flex flex-wrap gap-2 mb-3">
+                        <span class="card-badge">React.js</span>
+                        <span class="card-badge">Bootstrap</span>
+                        <span class="card-badge">Figma</span>
+                      </div>
+                      <p class="description text-white py-md-2" style="line-height: 1.6;">
+                        • Built a chatbot-centric website using React.js and Bootstrap from Figma designs; managed deployment and domain transfer with minimal downtime.
+                      </p>
                     </div>
-
                   </li>
                 </ul>
-
-
               </li>
+
+              <!-- Commercia Financial Services -->
               <li>
                 <img class="employer-logo pb-2 pb-md-4" src="./assets/images/Commercia logo.png" alt="" srcset="">
-                <span class="timeline-year pb-2 pb-md-4">Jul-2023 - Oct-2023</span>
-                <h4 class="timeline-title pb-2 pb-md-4 text-white fw-semibold">Web developer intern</h4>
-
-                <div class="timeline-text">
-                  <div class="skill "> <span class="  card-badge  my-2     d-inline  ">Bootstrap</span> <span
-                      class="  card-badge  my-2     d-inline   mx-2">HTML</span> <span class="  card-badge  my-2     d-inline  ">CSS</span> <span
-                      class="  card-badge  my-2     d-inline   mx-2">Laravel</span> </div>
-                  <p class="description text-white py-md-4">Mainly worked on front-end technologies including Bootstrap,
-                    HTML,
-                    CSS, and JavaScript. <br>
-                    Developed web applications using Laravel, implementing MVC architecture, and integrated APIs.
-                  </p>
-                </div>
+                <ul>
+                  <li>
+                    <span class="timeline-year pb-2 pb-md-4">Jul 2023 – Sep 2023</span>
+                    <h4 class="timeline-title pb-2 pb-md-4 text-white fw-semibold">Intern</h4>
+                    <p class="timeline-subtitle text-muted pb-2" style="font-size: 0.95rem; font-style: italic;">Commercia Financial Services</p>
+                    <div class="timeline-text">
+                      <div class="skill d-flex flex-wrap gap-2 mb-3">
+                        <span class="card-badge">Bootstrap</span>
+                        <span class="card-badge">HTML</span>
+                        <span class="card-badge">CSS</span>
+                        <span class="card-badge">JavaScript</span>
+                      </div>
+                      <p class="description text-white py-md-2" style="line-height: 1.6;">
+                        • Worked on front-end development and web application architecture. My role involved utilizing technologies like Bootstrap, HTML, CSS, and JavaScript to create user-friendly interfaces.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>
@@ -212,17 +261,81 @@
         </style>
       </section>
 
-      <section class="Behind-the-pixels" aria-label="work-history" id="Behind-the-pixels">
+      <section class="section skills" id="skills" aria-label="skills">
         <div class="container">
+          <h2 class="headline headline-2 section-title">
+            <span class="span">Skills & Technologies</span>
+          </h2>
+          <p class="section-text">
+            My technical stack and areas of expertise
+          </p>
 
-          <div class="row ">
-
-            <div class="col col-4 d-none d-xl-block mx-auto">
-              <div class="iamge-section">
-                <img class="aditya w-75 rounded-3 mx-auto" src="./assets/customImages/aditya.jpg" alt="" srcset="">
+          <div class="row g-4 mt-2">
+            <!-- Languages -->
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="skills-card p-4 rounded-3">
+                <h3 class="h5 text-white mb-3 fw-bold">Languages</h3>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="card-badge">Python</span>
+                  <span class="card-badge">JavaScript</span>
+                  <span class="card-badge">TypeScript</span>
+                  <span class="card-badge">SQL</span>
+                  <span class="card-badge">HTML</span>
+                  <span class="card-badge">CSS</span>
+                </div>
               </div>
             </div>
-            <div class="col col-xl-8 my-auto">
+
+            <!-- Frameworks & Libraries -->
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="skills-card p-4 rounded-3">
+                <h3 class="h5 text-white mb-3 fw-bold">Frameworks</h3>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="card-badge">FastAPI</span>
+                  <span class="card-badge">React</span>
+                  <span class="card-badge">Redux</span>
+                  <span class="card-badge">MUI</span>
+                  <span class="card-badge">Bootstrap</span>
+                  <span class="card-badge">Swagger</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Cloud & DevOps -->
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="skills-card p-4 rounded-3">
+                <h3 class="h5 text-white mb-3 fw-bold">Cloud & DevOps</h3>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="card-badge">Azure</span>
+                  <span class="card-badge">Docker</span>
+                  <span class="card-badge">Git</span>
+                  <span class="card-badge">CI/CD</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- AI & Automation -->
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="skills-card p-4 rounded-3">
+                <h3 class="h5 text-white mb-3 fw-bold">AI & Automation</h3>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="card-badge">LLM Workflows</span>
+                  <span class="card-badge">Agentic Systems</span>
+                  <span class="card-badge">API Testing</span>
+                  <span class="card-badge">DataHub</span>
+                  <span class="card-badge">Devin AI</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="Behind-the-pixels" aria-label="about-me" id="Behind-the-pixels">
+        <div class="container">
+
+          <div class="row">
+            <div class="col col-12 my-auto">
               <h2 class="headline headline-2 section-title">
                 <span class="span">Behind the Pixels</span>
               </h2>
@@ -260,6 +373,29 @@
           </p>
 
           <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card feature-card border-0">
+                <figure class="card-banner img-holder d-flex align-items-center justify-content-center" style="--width: 1602; --height: 903; background: linear-gradient(135deg, #008170 0%, #232D3F 100%);">
+                  <div class="text-center text-white p-3">
+                    <ion-icon name="restaurant-outline" style="font-size: 4.5rem; color: #0ebba4;"></ion-icon>
+                    <h4 class="mt-2 fw-semibold text-uppercase" style="letter-spacing: 2px; font-size: 1.1rem; color: #93B1A6;">Smart Meal Recommender</h4>
+                  </div>
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="headline headline-3">
+                    <a href="https://smart-meal.web/" class="card-title hover-2">
+                      Smart Meal Recommender - RAG-Based Food Recognition System
+                    </a>
+                  </h3>
+                  <div class="card-wrapper">
+                    <p class="card-subtitle">Feb 2026</p>
+                    <a href="https://smart-meal.web/" class="card-btn">View Live</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card feature-card border-0">
                 <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">

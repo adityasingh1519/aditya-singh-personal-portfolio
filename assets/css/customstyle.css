@@ -113,3 +113,53 @@ ul {
     font-size: 0.85rem;
   }
 }
+
+/* Skills & Technologies Section Styles */
+.skills-card {
+  background-color: var(--bg-prussian-blue);
+  border: 1px solid var(--border-white-alpha-15);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  height: 100%;
+}
+
+.skills-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--bg-carolina-blue);
+}
+
+.card-badge {
+  white-space: nowrap;
+  display: inline-block;
+  font-size: 0.85rem !important;
+  padding: 4px 12px !important;
+}
+
+/* Responsive typography overrides for mobile screens (up to 768px) */
+@media screen and (max-width: 768px) {
+  /* Company names in timeline */
+  .employer-logo-text {
+    font-size: 1.4rem !important;
+  }
+
+  /* Timeline titles (e.g., "Senior Software Engineer") */
+  .work-history .timeline-title {
+    font-size: 1.2rem !important;
+  }
+
+  /* Description paragraphs in timeline */
+  .work-history .description {
+    font-size: 0.85rem !important;
+    line-height: 1.5 !important;
+  }
+
+  /* Timeline year/date */
+  .work-history .timeline-year {
+    font-size: 0.85rem !important;
+  }
+
+  /* Skill badges on mobile */
+  .card-badge {
+    font-size: 0.75rem !important;
+    padding: 3px 8px !important;
+  }
+}
